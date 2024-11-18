@@ -6,8 +6,7 @@
 }
 .dashboard {
     max-width: 600px;
-    height: 60vh;
-    max-height: 60vh;
+    max-height: 65vh;
     margin: auto auto;
     padding: 20px;
     border: 1px solid #ccc;
@@ -38,6 +37,10 @@
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 5px;
+}
+
+.form-group-2 {
+    margin-bottom: 20px;
 }
 
 .form-group-2 label {
@@ -71,4 +74,22 @@
 
 .submit-btn:hover {
     background-color: #0056b3;
+}
+
+@media screen and (max-width:500px) and (min-width:200px) {
+    .dashboard {
+        width: 75%;
+        height: 60vh;
+        padding: 20px;
+    }
+
+    .dashboard h1 {
+        text-align: center;
+        color: #212121;
+        font-size: 21px;
+        font-weight: 900;
+    }
+    .form-group-2 {
+        margin-bottom: 20px;
+    }
 }
